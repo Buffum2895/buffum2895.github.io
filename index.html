@@ -1,0 +1,101 @@
+<!--
+Name: Daniel Buffum
+Pawprint: drbk8v
+Date: 1/31/2020
+Challenge: Portfolio
+
+Code referenced from the follow various links:
+https://stackoverflow.com/questions/32633032/how-do-i-target-specific-nav-bars-that-have-an-id
+https://www.w3schools.com/css/css_navbar.asp
+https://www.w3schools.com/css/css_font.asp
+https://www.w3schools.com/css/css_navbar.asp
+https://www.w3schools.com/cssref/sel_id.asp
+https://www.w3schools.com/w3css/w3css_images.asp
+https://www.w3schools.com/css/css_dimension.asp
+https://www.w3schools.com/css/css_positioning.asp
+https://www.w3schools.com/css/css_font.asp
+https://www.w3schools.com/css/css_selectors.asp
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>Portfolio </title>
+        
+        <style>
+            #topnav {
+                background-color:beige;
+                list-style-type: none;
+                font-family: "Comic Sans MS", Gadget, sans-serif;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right:0;
+                width: 100%;
+            }
+        
+            .myPicture {
+                position: relative;
+                max-width: 40%;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                border-color:pink;
+                border-style: double;
+                padding: 5px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                bottom: 50px;
+                top:90px;
+                
+                height: 300px;
+            }
+            
+            .myName {
+                color:blue;
+                font-size: 30px;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+            }
+            
+            .myHeader {
+                font-family: "Comic Sans MS", cursive, monospace;
+                color:blue;
+                position: relative;
+                top: 130px;
+                bottom:10px;
+                font-size: 20px;
+                text-align: center;
+            }
+            
+            p {
+                text-align:center;
+                top: 200px;
+                font-size:20px;
+                color:dimgray;
+            }
+            
+            body {
+                background-color:azure;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <ul id = topnav>
+            <li class = myName>Daniel Buffum</li>
+        </ul>
+        
+        <img src="2018-2019%20Composite.PNG" class=myPicture alt ="me">
+     
+        <h1 class=myHeader>
+            Daniel Buffum, Computer Science Major
+        </h1>
+        
+        <p>
+            Aspiring Artificial Intelligence Engineer from the University of Missouri - Columbia
+        </p>
+        
+    </body>
+</html>
+
+
